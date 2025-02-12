@@ -1,0 +1,31 @@
+
+ - Main.cc - implements the functions in the files provided
+
+1. Price (.cc and .h) - stores a dollar value along with some comparison functions and a print function.
+
+2.  Control (.cc and .h)- Controls the interaction of our classes
+
+3. Listing (.cc and .h) - an entity class containing a title, price, description, seller, etc.
+
+4. CuMarket (.cc and .h) - the main class. This class provides functions to add, remove, and parse Users and Listings.
+
+5. Tester (.cc and .h)- some functions used to test your code.
+
+6. Category.h, Category.cc - These contain a Category enum and a global function to     convert a Category enum to an appropriate string, both in the cat
+namespace
+
+7. defs.h - this has a preprocessor constant that you may use to initialize your arrays to a consistent size.
+
+8. Filter (.cc and .h)- implements our search algorithm by ”filtering” Listings
+
+9. Makefile
+
+10. List.h -  a templated, array-based collection class that we will use to store Listings
+
+11. test.cc - test implementation on functions
+
+12. TestControl - (.cc and .h) - Controls the interaction of our classes
+
+13. View - (.cc and .h) -  Provides a user menu, takes input.
+
+Compilation & execution: make, ./aa, make clean.
